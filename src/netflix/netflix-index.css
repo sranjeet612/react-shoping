@@ -1,0 +1,10 @@
+.netflix-index
+{
+    background-image: url("/public/Netflix.jpg");
+    opacity: 0.999999;
+    height: 786px;
+}
+
+.netflix-shadow{
+    color: rgba(0, 0, 0, 0.5);
+}
