@@ -10,6 +10,7 @@ import { Login } from './components/Login/login';
 import DataBinding from './components/DataBinding/DataBinding';
 import Customer from './components/DataBinding/Customer';
 import Nasaapi from './components/Nasa/Nasaapi';
+import Nasaapicard from './components/Nasa/nasaapicard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +19,8 @@ root.render(
     {/* <Login /> */}
     {/* <DataBinding /> */}
     {/* <Customer /> */}
-    <Nasaapi />
+    {/* <Nasaapi /> */}
+    <Nasaapicard />
   </React.StrictMode>
 );
 reportWebVitals();
