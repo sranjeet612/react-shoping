@@ -9,6 +9,7 @@ import NetflixIndex from './netflix/netflix-index';
 import { Login } from './components/Login/login';
 import DataBinding from './components/DataBinding/DataBinding';
 import Customer from './components/DataBinding/Customer';
+import Nasaapi from './components/Nasa/Nasaapi';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,8 @@ root.render(
     {/* <NetflixIndex /> */}
     {/* <Login /> */}
     {/* <DataBinding /> */}
-    <Customer />
+    {/* <Customer /> */}
+    <Nasaapi />
   </React.StrictMode>
 );
 reportWebVitals();
